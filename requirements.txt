@@ -1,0 +1,15 @@
+# llm-deployments-forge — Python Dependencies
+# Install with: pip install -r requirements.txt
+# For running tests: pip install -r requirements-dev.txt
+
+# OpenAI-compatible HTTP client
+openai>=1.30.0
+
+# Anthropic client
+anthropic>=0.39.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# HTTP (for health checks)
+requests>=2.31.0
